@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-;:root{
---bg-color:#222831;
---primary-color:#dddddd;
---secundary-color:#f05454;
---font:"Nunito Sans",sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root{
+    --bg-color:#222831;
+    --primary-color:#dddddd;
+    --secundary-color:#f05454;
+    --font: "Nunito Sans", sans-serif;
 }
 body{
     background-color: var(--bg-color);
@@ -14,9 +13,9 @@ body{
     margin: 0;
 }
 header{
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1px;
+ background-color: var(--primary-color);
+ text-align: center;
+ padding: 1px;   
 }
 h1{
     font-size: 2rem;
@@ -35,9 +34,22 @@ nav a{
     font-size: 1.2rem;
 }
 footer{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
     color: var(--bg-color);
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color)solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--secundary-color);
 }
