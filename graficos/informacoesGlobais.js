@@ -1,6 +1,6 @@
 const url ='https://raw.githuconst url ='https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
-async function visualizarInfomacoesGlobais() {
+    async function visualizarInfomacoesGlobais.js(){
     const res = await fetch(url)
     const dados = await res.json()
     const pessoasConectadas = (dados.total_pessoas_conectadas) / 1e9
@@ -14,4 +14,4 @@ async function visualizarInfomacoesGlobais() {
     container.appendChild(paragrafo)
        
 }
-visualizarInfomacoesGlobais()
+visualizarInfomacoesGlobais.js()
